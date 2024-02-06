@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.logo {
+    width: 10%;
+    height: 70px;
+    padding: 10px;
+
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.fivewords {
+    width: 70%;
+    height: 100px;
+    height: 70%;
+    cursor: pointer;
+
+
+}
+
+.fivewords ul {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    margin: 0;
+    list-style: none;
+    margin-right: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+    font-weight: 400px;
+
+}
+
+.icons {
+    width: 20%;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    cursor: pointer;
+}
+
+.navbar logo {
+    left: 10px;
+}
+
+.icons img {
+    width: 25px;
+
+}
+
+.posterone {
+    width: 100%;
+    height: 100vh;
+    cursor: pointer;
+}
+
+.posterone img {
+    width: 100%;
+    height: 100vh;
+}
+
+.sectiontwo {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.postertwo,.fruitname{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.postertwo img {
+    width: 350px;
+    height: 300PX;
+}
+
+.sectiontwo h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 46px;
+    font-weight: 500;
+
+}
+
+.posterthre img {
+    width: 350px;
+    height: 300PX;
+    cursor: pointer;
+}
+
+.posterthre,.fruitnameone{
+ 
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.posterfour img {
+    width: 350px;
+    height: 300PX;
+    margin-left: 20px;
+}
+.posterfour,.fruitnametwo{
+ 
+    width: 100%;
+   
+    display: flex;
+    justify-content: start;
+    
+    font-size: 24px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.fruitnametwo p{
+    margin-left: 80px;
+}
+.sectionthre{
+    width: 100%;
+    overflow: hidden;
+}
+.posterfive{
+    width: 100%;
+}
+footer{
+    background-color:black;
+    height: 45vh;
+    width: 100%;
+    position: relative;
+    
+    top: 923px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footerdiv{
+    width: 15%;
+}
+.image{
+width: 100%;
+height: 30vh;
+padding: 25px;
+}
+.footertable{
+    width: 70%;
+    height: 30vh;
+    display: flex;
+    justify-content:space-around;
+    color: #be9509;
+line-height: 25px;
+cursor: pointer;
+
+}
+.footerdivtwo{
+    width: 15%;
+}
+.footerlastimg{
+    width: 100%;
+    padding: 25px;
+}
+.ullast img{
+    width: 30px;
+}
+.footertable ul{
+    list-style: none;
+}
+.help,.About,.Products,.Contact{
+    color: #be9509;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+   
+}
+#wtsapp{
+width: 60px;
+height: 60px;
+position: absolute;
+right: 20px;
+bottom: 20px;
+}
+.whatsapp{
+position:absolute;  
+z-index: 1;
+position: fixed;
+right: 0;
+bottom: 0;
+width: 200px; 
+height: 200px;
+
+}
+.lastfooter{
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    border-top: 1px solid #fff;
+    margin-bottom: 25px;
+}
+.footercontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.lastfooter h4{
+    color: #be9509;
+width: 30%;
+   margin-left: 40px;
+   cursor: pointer;
+}
+
